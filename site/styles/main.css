@@ -1,0 +1,143 @@
+  html{
+    font-size:62.5%;/* 10px */
+  }
+
+  body{
+    margin:0;
+    font-family: "Arial", sans-serif;
+    color:#646464;
+    font-size:1.6rem;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+  .container{
+    width:940px;
+    margin:0 auto;
+  }
+
+
+  .relative{
+    position:relative;
+  }
+
+  /*
+
+        HEADER
+
+  */
+  .topBar{
+    background:#373737;
+  }
+
+  .bottomBar{
+    background:#474747;
+  }
+
+  header#header nav ul{
+    display:flex;
+    padding:0;
+    margin:0;
+    list-style:none;
+  }
+
+  header#header nav ul li:first-child{
+    padding: 22px 40px;
+  }
+
+  header#header nav ul li a{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight:bold;
+    color:#FFF;
+    text-decoration:none;
+    font-size:1.2rem;
+    padding:25px 40px;
+    display:inline-block;
+    border-bottom:4px solid #474747;
+    transition:border linear 0.25s;
+  }
+
+  header#header nav ul li a:hover, header#header nav ul li a.current{
+    border-bottom:4px solid #f26c4f;
+  }
+
+  /*
+
+        MAIN
+
+  */
+
+  main header.container{
+    margin-top:70px;
+    background:#373737;
+    display:flex;
+  }
+
+  main header.container > .relative{
+    border-right:8px solid #f26c4f;
+  }
+
+  main header.container .relative h3{
+    position:absolute;
+    bottom:0;
+    right:0;
+    padding:25px 30px;
+    font-size:1.6rem;
+    color:#FFF;
+    background:rgba(0,0,0,0.5);
+    margin-bottom:0;
+  }
+
+  main header.container .description{
+    padding:45px 40px;
+  }
+
+  h1{
+    font-size:1.9rem;
+    color:#FFF;
+  }
+
+  main header.container .description p{
+    color:#a7a7a7;
+    font-size:1.2rem;
+    line-height: 1.5;
+  }
+
+  .card h1, h2, h4{
+    padding: 10px;
+    margin: 10px 0px;
+    text-align: center;
+
+  }
+   
+
+  .descriptionLink{
+    margin-top:25px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+  }
+
+  .descriptionLink a{
+    color:#FFF;
+    text-decoration: none;
+    font-size:3.6rem;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+
+ 
+
+  /*
+
+        FOOTER
+
+  */
+
+
+  /*
+  #373737
+  #474747
+  https://fonts.google.com/?query=Nexa
+  */
